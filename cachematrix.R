@@ -16,6 +16,7 @@
 #    - creates a list of functions ( set(),get(), setsolve() and getsolve()) which can be called using 
 #       named ('$' style) notation
 
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
